@@ -19,9 +19,9 @@
 				
 			</div>
 			
-			
+<!--			
 			<swiper :options="swiperOption" ref="mySwiper" id="home_slide">
-		    <!-- slides -->
+
 		    	
 				    <swiper-slide  v-for="(item,index) in swiperSlides" :key="item.id" >
 						<router-link v-bind:to="{name:'homeInfo', params: {id: item.activityId}} ">
@@ -31,7 +31,7 @@
 				
 				    <div class="swiper-pagination"  slot="pagination"></div>
 				
-		    </swiper>
+		    </swiper>-->
 			
 			<ul class="home_nav" id="home_nav">
 				<li class="home_nav_list"  v-for="(item,index) in homeNav">

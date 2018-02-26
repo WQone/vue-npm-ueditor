@@ -7,6 +7,8 @@ import store from './vuex'
 import Resource from 'vue-resource'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import VueLazyload from 'vue-lazyload'
+import VueI18n from 'vue-i18n'
+
 
 Vue.use(Resource)
 Vue.use(VueAwesomeSwiper)
@@ -16,6 +18,7 @@ Vue.use(VueLazyload, {
   try: 3 // default 1
 })
 
+Vue.use(VueI18n)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
