@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    {{author}}
+    {{getAuthor}}
     <div style="margin: 20px;">
       <h1>{{$t("message.title")}}</h1>
       <input style="width: 300px;" class="form-control" :placeholder="$t('placeholder.enter')">
@@ -13,6 +15,14 @@
 
 <script>
 export default {
+  computed: {
+    author () {
+      return this.$store.state.author
+    },
+    getAuthor () {
+      return this.$store.getters.getInit
+    }
+  },
   data () {
     return {
       brands: [this.$t('brands.nike'), this.$t('brands.adi'), this.$t('brands.nb'), this.$t('brands.ln')]
@@ -21,6 +31,7 @@ export default {
   methods: {
     // js方法
     changeLocale () {
+      this.$store.commit('init', '我是吴茜')
       this.$confirm(this.$t('layer.toggle'), this.$t('layer.tips'), {
         confirmButtonText: this.$t('button.ok'),
         cancelButtonText: this.$t('button.cancel'),

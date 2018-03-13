@@ -7,10 +7,13 @@ import VueI18n from 'vue-i18n'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import cookie from './common/cookie'
+import Vuex from 'vuex'
+import store from './vuex/store'
 
 Vue.config.productionTip = false
 Vue.use(VueI18n)
 Vue.use(ElementUI)
+Vue.use(Vuex)
 
 const i18n = new VueI18n({
   locale: cookie.getCookie('PLAY_LANG', 'zh'), // 语言标识
@@ -24,6 +27,7 @@ new Vue({
   el: '#app',
   router,
   i18n,
+  store,
   components: {
     App
   },
