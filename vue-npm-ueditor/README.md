@@ -1,21 +1,17 @@
-# vue-npm-ueditor
+# ueditor-web
+百度富文本编辑器 VUE + JAVA
 
-> A Vue.js project
+因为项目中有引入Ueditor 提交到git备份一次
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+参考文章 
+https://www.cnblogs.com/ocean-sky/p/7132319.html
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
+项目COPY 来源于
+https://github.com/coderliguoqing
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+后台配合阿里云
+https://www.cnblogs.com/anny0404/p/5149219.html
+
