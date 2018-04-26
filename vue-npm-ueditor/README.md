@@ -1,16 +1,15 @@
-# ueditor-web
-百度富文本编辑器 VUE + JAVA
-
-因为项目中有引入Ueditor 提交到git备份一次
+# vue-npm-ueditor
+VUE集成百度富文本编辑器 Ueditor
 
 
-参考文章 
+# git 地址
+https://github.com/WQone
+
+
+# 参考其他博客 
+
+关于上传接口配置
 https://www.cnblogs.com/ocean-sky/p/7132319.html
-
-
-项目COPY 来源于
-https://github.com/coderliguoqing
-
 
 后台配合阿里云
 https://www.cnblogs.com/anny0404/p/5149219.html

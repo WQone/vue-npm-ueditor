@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Ueditor from '@/views'
+import Ueditor from '@/views/Tools'
 
 Vue.use(Router)
 

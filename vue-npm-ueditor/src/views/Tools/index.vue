@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import Ueditor from '../components/Ueditor';
+  import Ueditor from '../../components/Ueditor';
   export default {
     components: {
       Ueditor,

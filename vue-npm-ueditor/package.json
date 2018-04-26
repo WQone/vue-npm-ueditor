@@ -1,9 +1,14 @@
 {
   "name": "vue-npm-ueditor",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Vue.js project",
-  "author": "WUQIAN",
-  "private": true,
+  "author": "WUQIAN  <1307144731@qq.com>",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/js/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
